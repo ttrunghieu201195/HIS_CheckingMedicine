@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="">
+
+<head>
+    <title>THUOC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/styles/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+
+
+</head>
+
+<body id="top">
+    <div>
+        <div class="header-top-bar">
+            <div id="topbar" class="hoc clear">
+                <div class="fl_left">
+
+                    <ul class="nospace">
+                        <li><i class="fas fa-phone rgtspace-5"></i> 1234567617891</li>
+                        <li><i class="far fa-envelope rgtspace-5"></i> nhathuoc@gmail.com</li>
+                    </ul>
+
+                </div>
+                <div class="fl_right">
+
+                    <ul class="nospace">
+                        <li><a href="index.html" title="Home"><i class="fas fa-home"></i></a></li>
+                        <li><a href="#" title="Trợ Giúp"><i class="far fa-life-ring"></i></a></li>
+                        <li><a href="#" title="Đăng nhập"><i class="fas fa-sign-in-alt"></i></a></li>
+                        <li><a href="#" title="Đăng Ký"><i class="fas fa-edit"></i></a></li>
+                        <li id="searchform">
+                            <div>
+                                <form action="#" method="post">
+                                    <fieldset>
+                                        <!-- <legend>Quick Search:</legend> -->
+                                        <input placeholder="Enter search term&hellip; ">
+                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear">
+                <div id="logo" class="fl_left">
+
+                    <!-- <h1><a href="index.html">THAINGUYEN</a></h1> -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/rsz_logo1.jpg" alt="" class="img-fluid">
+                    </a>
+
+                </div>
+                <nav id="mainav" class="fl_right">
+
+                    <ul class="clear">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a class="active" href="#">Pages</a>
+                            <!-- <ul> -->
+                            <li><a href="pages/gallery.html">Gallery</a></li>
+                            <!-- <li><a href="pages/full-width.html">Full Width</a></li> -->
+                            <!-- <li><a href="pages/sidebar-left.html">Sidebar Left</a></li> -->
+                            <!-- <li><a href="pages/sidebar-right.html">Sidebar Right</a></li> -->
+                            <!-- <li><a href="pages/basic-grid.html">Basic Grid</a></li> -->
+                            <!-- <li><a href="pages/font-icons.html">Font Icons</a></li> -->
+                            <!-- </ul> -->
+
+                        </li>
+                        </li>
+                        <li><a class="active" href="#">TEXTTTTT</a> </li>
+                        <li><a class="active" href="#">TEXTTTTT</a> </li>
+                        <li><a class="active" href="#">TEXTTTTT</a> </li>
+                        <li><a class="active" href="#">TEXTTTTT</a> </li>
+
+                    </ul>
+
+                </nav>
+            </header>
+        </div>
+
+
+        <div class="wrapper bgded overlay gradient" style="background-image:url('images/demo/backgrounds/02.jpg');">
+            <div id="pageintro" class="hoc clear">
+
+                <article>
+                    <p>TEXTTTTTTTTTTTTT</p>
+                    <h3 class="heading">TEXTTTTTTTTTTTTT</h3>
+
+                </article>
+
+            </div>
+        </div>
+
+
+        <div class="wrapper row2">
+            <section class="hoc container clear">
+                <div class="sectiontitle">
+                    <h6 class="heading">BẢNG THÊM DỮ LIỆU</h6>
+                </div>
+
+                <table class="table table-hover" id="them" border="5" cellpadding="10">
+                    <tr>
+                        <th>Tên </th>
+                        <th>Hoạt chất</th>
+                        <th>DVT</th>
+                        <th>Dạng thuốc</th>
+                        <th>Cách dùng</th>
+                        <th>Ngày</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                    </tr>
+                    <form>
+                        <div>
+
+                            <input type="button" id="appendButton" name="button" class="button button1" value="Thêm" onclick="insertNewRecord()">
+
+                        </div>
+                        <div class="popup" id="popup">
+                            <img src="images/demo/warring.png">
+                            <p class="gan" id="gan"></p>
+                            <button type="button" class="btn" onclick="closePopup()">OK</button>
+                        </div>
+                        <div>
+                            <td><input id="name" name="name" type="text" value="" class="input1" />
+                            </td>
+                            <td><input id="hoatchat" name="hoatchat" type="text" value="" class="input1" />
+                            </td>
+                            <td><input id="dvt" name="dvt" type="text" value="" class="input1" />
+                            </td>
+                            <td><input id="dangthuoc" name="dangthuoc" type="text" value="" class="input1" />
+                            </td>
+                            <td><input id="cachdung" name="cachdung" type="text" value="" class="input1" />
+                            </td>
+                            <td><input id="ngay" name="ngay" type="date" value="" class="input1" />
+                            </td>
+                            <td><input id="soluong" name="soluong" type="text" value="" class="input1" />
+                            </td>
+                            <td><input id="dongia" name="dongia" type="text" value="" class="input1" />
+                            </td>
+                        </div>
+                    </form>
+                </table>
+
+            </section>
+        </div>
+
+
+        <div class="wrapper row3">
+            <main class="hoc container clear">
+
+                <section id="introblocks">
+                    <div class="sectiontitle">
+                        <h6 class="heading">BẢNG HIỂN THỊ</h6>
+
+                    </div>
+
+                    <div class="table-responsive" id="hienthi">
+                        <table class="table" class="table table-hover" name="table" class="table1 tabletr1 tabletrtd" id="show">
+
+                            <tr>
+                                <th>STT</th>
+                                <th>Tên </th>
+                                <th>Hoạt chất</th>
+                                <th>DVT</th>
+                                <th>Dạng thuốc</th>
+                                <th>Cách dùng</th>
+                                <th>Ngày</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành Tiền</th>
+                                <th></th>
+                            </tr>
+
+
+                            <tbody id="myTBody">
+
+                            </tbody>
+
+                            <b id="thai1"></b>
+
+                        </table>
+                    </div>
+                </section>
+
+                <div class="clear"></div>
+            </main>
+        </div>
+
+        <div class="wrapper row2">
+            <section id="latest" class="hoc container clear">
+
+                <div class="sectiontitle">
+                    <h6 class="heading">TEXTTTTTTTTTTT</h6>
+                    <p>TEXTTTTTTTTTTTTT</p>
+                </div>
+
+                <footer class="block center"><a class="btn" href="#">Tortor molestie</a></footer>
+
+            </section>
+        </div>
+
+        <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
+            <div class="hoc container testimonial clear">
+
+                <article><img src="images/demo/03.png" alt="">
+                    <blockquote>TEXTTTTTTTTTTT</blockquote>
+                    <h6 class="heading font-x1">T.N</h6>
+                    <em>Texttttttttttt</em></article>
+
+            </div>
+        </div>
+
+        <footer class="hoc clear footer section gray-bg">
+            <div class="container-fluid">
+                <div class="row px-md-3">
+                    <div class=" widget col-sm-6 col-lg-3 py-3">
+                        <h4 class="text-capitalize mb-3">TEXT</h4>
+                        <div class="divider mb-4"></div>
+                        <ul class="list-unstyled footer-menu lh-35">
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget col-sm-6 col-lg-3 py-3">
+                        <h4 class="text-capitalize mb-3">TEXT</h4>
+                        <div class="divider mb-4"></div>
+                        <ul class="footer-menu list-unstyled footer-menu lh-35">
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget col-sm-6 col-lg-3 py-3">
+                        <h4 class="text-capitalize mb-3">TEXT</h4>
+                        <div class="divider mb-4"></div>
+                        <ul class="footer-menu list-unstyled footer-menu lh-35">
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                            <li><a href="#">TEXT</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget col-sm-6 col-lg-3 py-3">
+                        <h4 class="text-capitalize mb-3">LIÊN HỆ</h4>
+                        <div class="divider mb-4"></div>
+                        <p class="footer-link mt-2">TEXT</p>
+                        <a href="#" class="footer-link">123456789</a>
+                        <p class="footer-link mt-2">TEXT</p>
+                        <a href="#" class="footer-link">nhathuoc@gmail.com</a>
+
+                        <h4 class="mt-3">Social Media</h4>
+
+                        <ul class="list-inline footer-socials mt-4">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/themefisher"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/themefisher"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p> -->
+            </div>
+        </footer>
+
+
+
+        <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+
+        <!-- JAVASCRIPTS -->
+        <script src="layout/scripts/jquery.min.js"></script>
+        <script src="layout/scripts/jquery.backtotop.js"></script>
+        <script src="layout/scripts/jquery.mobilemenu.js"></script>
+        <script src="layout/scripts/jquery.themxoa.js"></script>
+        <script src="layout/styles/dist/js/bootstrap.min.js"></script>
+
+        <!-- <script src="D:/ThucTap/chrome extension1/content.js"></script> -->
+
+    </div>
+</body>
+
+</html>
